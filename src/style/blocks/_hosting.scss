@@ -1,0 +1,228 @@
+.hosting-wrap {
+    padding: 100px 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 1020px;
+}
+.hosting__top {
+    display: flex;
+    flex-direction: column;
+}
+.hosting__title {
+    padding-bottom: 12px;
+    font-size: 36px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: #003557;
+}
+.hosting__subtitle {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #5e7188;
+}
+.hostong__box-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media (max-width: 992px) {
+        justify-content: center;
+    }
+    @media (max-width: 660px) {
+        flex-direction: column;
+    }
+}
+.hosting__nav-list {
+    height: 266px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 18px;
+    line-height: 62px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #003351;
+    width: 178px;
+    align-items: center;
+    @media (max-width: 660px) {
+        height: auto;
+    }
+}
+.hosting-box {
+    display: flex;
+    flex: 0 1 74.444%;
+    justify-content: space-between;
+    @media (max-width: 992px) {
+        gap: 10px;
+    }
+    @media (max-width: 900px) {
+        flex-direction: column;
+        width: 300px;
+        align-self: center;
+    }
+}
+.hosting-box__item {
+    padding: 50px 19px 60px 19px;
+    background-color: #efefef;
+    box-shadow: 0px 2px 4px 0px rgba(6, 7, 7, 0.34);
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 30.998%;
+}
+.hosting-box__item-best {
+    background-color: #008ce6;
+    position: relative;
+    &::before {
+        content: "Best Buy";
+        display: flex;
+        width: 136px;
+        height: 50px;
+        background-color: #be1e2d;
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 700;
+        color: #ffffff;
+        transform: rotate(90deg);
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 43px;
+        right: -43px;
+    }
+}
+.hosting-box__item-top {
+    border-bottom: 1px solid #003557;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hosting-box__item-top--best {
+    border-bottom: 1px solid #ffffff;
+}
+.hosting__item-title {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 900;
+    letter-spacing: 0.01em;
+    color: #003557;
+    padding-bottom: 54px;
+}
+.hosting__item-title--best {
+    color: #feffff;
+}
+.hosting__price-box {
+    width: 99px;
+    height: 52px;
+    display: flex;
+}
+.hosting__price {
+    font-size: 36px;
+    line-height: 24px;
+    font-weight: 900;
+    letter-spacing: 0.01em;
+    color: #003557;
+    display: flex;
+}
+.after {
+    & ::after {
+        content: "";
+        width: 1px;
+        height: 45px;
+        display: block;
+        background-color: #003557;
+        transform: rotate(45deg);
+        margin-top: 7px;
+    }
+}
+.after--best {
+    & ::after {
+        background-color: #ffffff;
+    }
+}
+.hosting__price--best {
+    color: #ffffff;
+}
+.hosting__month {
+    align-self: flex-end;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #003557;
+}
+.hosting__month--best {
+    color: #ffffff;
+}
+.hosting-box__item-bottom {
+    padding: 60px 0 45px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.hosting__ul-item-left {
+    list-style: none;
+    font-size: 15px;
+    line-height: 33px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #003557;
+}
+.hosting__ul-item-right {
+    font-size: 15px;
+    line-height: 33px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: #003557;
+}
+.hosting__ul-item-left--best {
+    color: #ffffff;
+}
+.hosting__ul-item-right--best {
+    color: #ffffff;
+}
+.btn--best {
+    width: 150px;
+    background-color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #be1e2d;
+    align-self: center;
+}
+.btn--r {
+    width: 150px;
+    background-color: #be1e2d;
+    color: #ffffff;
+    height: 45px;
+    align-self: center;
+}
+.hosting__ul-left {
+    list-style: none;
+    align-self: flex-start;
+}
+.hosting__ul-right {
+    list-style: none;
+    align-self: flex-end;
+    text-align: end;
+}
+.hosting__btn {
+    border-color: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 62px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #003351;
+    height: 20px;
+    transition: 0.4s;
+    &:hover {
+        transform: scale(1.05);
+    }
+}

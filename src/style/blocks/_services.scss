@@ -1,0 +1,126 @@
+.services {
+    background-color: #efefef;
+}
+
+.services-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 630px;
+    padding: 100px 0;
+    width: 100%;
+    justify-content: space-between;
+    @media (max-width: 1200px) {
+        justify-content: center;
+    }
+}
+.services-box {
+    width: 491px;
+}
+.services-box__item {
+    height: 430px;
+}
+.services-box__item--t {
+    display: flex;
+    flex: 0 1 12.219%;
+    background-color: #008ce6;
+    box-shadow: 0px 1px 2px 0px rgba(6, 7, 7, 0.34);
+    position: relative;
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+}
+.services__title {
+    font-size: 42px;
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    transform: rotate(-90deg);
+    position: absolute;
+    width: 300px;
+}
+.services-box__item--b {
+    display: flex;
+    flex: 0 1 87.78%;
+    padding: 50px;
+}
+.services__item-img--b {
+}
+.services__item-text {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #5e7188;
+}
+.services__item-text--b {
+    padding: 30px 0 36px 0;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #999999;
+}
+.services__item-link {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #003557;
+    text-decoration: none;
+}
+.services__item-img {
+    width: 30px;
+    height: 30px;
+    margin: 0 20px 20px 0;
+}
+.service__item-title {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #333333;
+}
+.services__bottom {
+    background-color: #008ce6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0 50px 0;
+}
+.services__img {
+}
+.services__bottom-title {
+    ont-size: 32px;
+    line-height: 54px;
+    font-weight: 900;
+    letter-spacing: 0.15em;
+    color: #ffffff;
+    padding: 40px 0 33px 0;
+}
+.services__bottom-text {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    max-width: 483px;
+    text-align: center;
+}
+.services-box--r {
+    width: 653px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    height: 430px;
+    @media (max-width: 636px) {
+        height: auto;
+        justify-content: center;
+    }
+}
+.services-box__item--r {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 47.546%;
+    height: 199px;
+    padding: 48px 49px 48px 36px;
+}
+.services__box-item-top {
+    display: flex;
+}
